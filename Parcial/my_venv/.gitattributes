@@ -1,0 +1,17 @@
+# Manejar finales de línea
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Definir archivos binarios
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Archivos de gran tamaño (LFS)
+# Si estás usando Git Large File Storage (LFS), puedes usar las siguientes líneas:
+# *.psd filter=lfs diff=lfs merge=lfs -text
+# *.ai filter=lfs diff=lfs merge=lfs -text
